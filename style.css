@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+h1 {
+  text-align: center;
+  font-family: Poppins;
+  color: white;
+
+
+}
+
+h2 span {
+  color: lime
+}
+
+h2 {
+  font-size: 22px;
+  font-family: Poppins;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-color: #1c1c1c;
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.popular h1 {
+  text-align: left;
+  font-family: Poppins;
+  color: #fcfcfc;
+  align-items: center;
+}
+
+footer {
+  background-color: black;
+  padding: 40px;
+
+}
+
+footer p1 {
+  text-align: center;
+  font-family: Poppins;
+  color: #fcfcfc;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  transition: 0.3s;
+  color: #8d8b8b;
+}
+
+img {
+  width: 20%;
+  transition: 0.3s;
+  margin-left: 4px;
+}
+
+img:hover {
+  opacity: 45%;
+}
+
+.popular p {
+  text-align: left;
+  font-family: Poppins;
+  color: #fcfcfc;
+  font-weight: bold;
+  align-items: center;
+  font-size: 23px;
+  margin-left: 4px;
+}
+
+.popular p1 {
+  text-align: left;
+  font-family: Poppins;
+  color: #fcfcfc;
+  align-items: center;
+  font-weight: normal;
+  margin-left: 4px;
+}
+
+.popular a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  font-weight: bold;
+  margin-left: 4px;
+}
+
+.popular a:hover {
+  color: #8d8b8b;
+}
+
+.popular trendingtext {
+  color: red;
+  margin-left: 2px;
+  font-weight: bold;
+}
+
+.popular oldmemes {
+  color: rgb(92, 223, 32);
+  font-weight: bold;
+  margin-left: 2px;
+}
+
+
+
+@media only screen and (max-width: 999px) {
+  img {
+    width: 40%;
+  }
+}

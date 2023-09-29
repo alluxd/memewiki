@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #1c1c1c;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    width: 29%;
+    margin-left: 12px;
+    transition: 0.2s;
+}
+
+
+img:hover {
+    opacity: 78%;
+}
+
+h1 {
+    margin-left: 12px;
+    font-family: Poppins;
+    color: white;
+}
+
+h3 {
+    margin-left: 12px;
+    font-family: Poppins;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p {
+    margin-left: 13px;
+    font-family: Poppins;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    transition: 0.3s;
+}
+@media only screen and (max-width: 999px) {
+    img {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    img {
+        width: 80%;
+    }
+}
