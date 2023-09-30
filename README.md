@@ -11,3 +11,7 @@
 ### 🏠 A cool home page
 ### 🫧 Clean article pages
 ### 🌙 Mainly focused on Dark Mode
+
+# Contributing
+You can now contribute to making articles about memes! 
+More information can be found in the 'contributor-guide' folder.
