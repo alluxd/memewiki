@@ -7,7 +7,7 @@ contribute articles for MemeWiki.
 
 # 🟩 How do I contribute to MemeWiki?
 ## 📃 First of all, to contribute there are some requirements:
-> 💻 Knowledge on HTML, CSS (js not necessary)
+> 💻 Knowledge on HTML, CSS (javascript not necessary)
 
 > 🖱️ Have a basic understanding on Photopea
 
@@ -93,7 +93,7 @@ selecting the layer and hit 'Delete' on your keyboard.
 
 ### 8. Add effects, change colors and make the text look good!
 
-### 9. Once you're done, click on File>Export As>PNG, and save it to the images folder in the website directory
+### 9. Once you're done, click on File>Export As>PNG (name it {memename}Banner, eg: scatBanner), and save it to the images folder in the website directory
 
 </details>
 
@@ -116,20 +116,62 @@ Click to expand
 
 <br>
 
-## 🖱️ Editing Articles
+## 🖱️ Making/Editing Articles
 <details>
 <summary> 
 Click to expand
 </summary>
-WIP
+
+#### 1. Copy the contents of the *tempCSS.css* file. 
+#### 2. Open the pages folder, and create two files.
+> articlename.html
+
+> articlename.css (in styles folder)
+
+#### 3. Replace "articlename" with the name of the meme. It can be shortened, like: smurf cat would be scat.
+
+#### 4. Copy the contents of the tempHTML.html file and paste it in your html file. Do the same with the CSS. 
+
+#### 5. Tweak and modify it as much as you want. Make sure it matches the theme like all the other pages.
+
+
+### There are some more helping info in both the tempCSS and tempHTML files. 
+### If you have any other questions, you can dm me.
 </details>
 
 
 
-## ➕ Adding files to the github repo
+## ➕ Pushing to the repository
 <details>
 <summary> 
 Click to expand
 </summary>
-WIP
+
+### Note: If you are adding the article, please inform me so that I can show it in the articles page.
+
+#### 1. Open a new terminal.
+#### 2. ``git init``
+#### 3. ``git remote add origin https://github.com/alluxd/memewiki.git``
+#### 4. ``git pull origin main``
+#### 5. ``git add .``
+#### 6. ``git commit -m 'Commit message here'``
+#### 7. ``git push origin main``
+#### 8. That's all!
+
+
+
 </details>
+
+## ❔ FAQ
+### 1. How do I use the images folder?
+> You can put 2 types of images in the folder: Article banner (photopea) and The Meme's image. Name the banner you made from photopea like: '(memenamehere)Banner'. For the meme's image, you can download it from google and put it inside the images folder. Name it your meme's name.
+
+> To access the image on an html file, use ``<img src='./images/imagenamehere.png/jpg>``, sometimes you may need to extend the path by adding a '../'
+
+### 2. Can I modify the index.html file?
+> No, unless you have the permission to do so.
+
+
+
+## 🎤 Additional Stuff
+### I'm sorry if you didn't understand how to do something in this tutorial. I tried to make it as understandable as possible. If you still have more doubts don't refrain from adding me on Discord. 
